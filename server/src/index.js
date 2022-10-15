@@ -4,6 +4,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
 const db = require("./config/db");
+const routes = require("./routes");
 
 const app = express();
 
@@ -27,9 +28,8 @@ app.use(cors());
 // HTTP loggers
 app.use(morgan("combined"));
 
-app.get("/", (req, res) => {
-  res.send("Welcome to BetterTrip server!");
-});
+// Routes
+routes(app);
 
 app.listen(port, () => {
   console.log(`Server app listening on port ${port}`);
