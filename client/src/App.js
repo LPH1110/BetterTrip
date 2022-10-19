@@ -10,11 +10,21 @@ function App() {
                         const Layout = route.layout;
                         const Component = route.component;
 
-                        return (
+                        return route.path === '/' ? (
                             <Route
                                 key={route.id}
                                 path={route.path}
                                 exact
+                                element={
+                                    <Layout>
+                                        <Component />
+                                    </Layout>
+                                }
+                            />
+                        ) : (
+                            <Route
+                                key={route.id}
+                                path={route.path}
                                 element={
                                     <Layout>
                                         <Component />

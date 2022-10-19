@@ -1,4 +1,12 @@
 @import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --default-font-family: 'Baloo 2', cursive;
+}
 
 * {
     margin: 0;
@@ -8,6 +16,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: var(--default-font-family);
 }
 
 body {
