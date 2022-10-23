@@ -1,5 +1,6 @@
 const Users = require("../models/Users");
 const bcrypt = require("bcrypt");
+const { sign } = require("jsonwebtoken");
 
 class UserController {
   index(req, res, next) {
@@ -33,16 +34,25 @@ class UserController {
       if (user) {
         const result = await bcrypt.compare(password, user.password);
         if (result) {
-          res.json({ status: "success" });
+          const accessToken = sign(
+            { email: user.email, id: user._id },
+            process.env.SECRET_KEY
+          );
+          res.json({ accessToken });
         } else {
-          res.json({ status: "failed", error: "WRONG PASSWORD!" });
+          res.json({ error: "WRONG PASSWORD!" });
         }
       } else {
-        res.json("User doesn't exist");
+        res.json({ error: "User doesn't exist" });
       }
     } catch (e) {
       next(e);
     }
+  }
+
+  // [GET] /authen
+  authen(req, res, next) {
+    res.json(req.user);
   }
 }
 

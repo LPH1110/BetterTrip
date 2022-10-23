@@ -1,5 +1,3 @@
-import React from 'react';
-
 function DialogContainer({ authentication }) {
     return (
         <section className="modal ml-0 inset-0 fixed flex items-center justify-center">

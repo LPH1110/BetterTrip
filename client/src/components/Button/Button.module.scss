@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap');
+
+.wrapper {
+    cursor: pointer;
+    padding: 7px 16px;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    font-family: var(--default-font-family);
+    font-weight: 600;
+    min-width: 66px;
+    border: 1px solid transparent;
+    background-color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+    + .wrapper {
+        margin-left: 16px;
+    }
+
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+
+    &.small {
+        min-width: 66px;
+    }
+
+    &.medium {
+        min-width: 102px;
+    }
+
+    &.large {
+        min-width: 306px;
+    }
+}
+
+.icon + .title,
+.title + .icon {
+    margin-left: 8px;
+}
+
+.icon {
+    display: inline-flex;
+    width: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    font-family: var(--default-font-family);
+    font-weight: 400;
+}
+
+.solid-primary {
+    background-color: var(--primary);
+    color: white;
+
+    &:hover {
+        background-color: rgba(239, 42, 80, 1);
+    }
+}
+
+.text {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.outline {
+    border-color: rgba(22, 24, 35, 0.12);
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.outline-primary {
+    color: var(--primary);
+    border-color: currentColor;
+
+    &:hover {
+        background-color: rgba(254, 44, 85, 0.06);
+    }
+}

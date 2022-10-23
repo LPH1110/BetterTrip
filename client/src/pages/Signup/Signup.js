@@ -1,11 +1,10 @@
 import axios from 'axios';
 import { ErrorMessage, Field, Form, Formik } from 'formik';
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import * as Yup from 'yup';
 
 function Signup() {
-    const [email, setEmail] = useState('');
     const navigate = useNavigate();
 
     const authenForm = useRef();
@@ -38,7 +37,7 @@ function Signup() {
 
     return (
         <section className="flex flex-col items-center justify-center h-screen">
-            <NavLink exact="true" to="/" className="mb-16 p-4 max-w-lg">
+            <NavLink end to="/" className="mb-16 p-4 max-w-lg">
                 <svg className="mx-auto h-10 w-auto text-slate-900" aria-hidden="true" viewBox="0 0 160 24" fill="none">
                     <path
                         d="M18.724 1.714c-4.538 0-7.376 2.286-8.51 6.857 1.702-2.285 3.687-3.143 5.957-2.57 1.296.325 2.22 1.271 3.245 2.318 1.668 1.706 3.6 3.681 7.819 3.681 4.539 0 7.376-2.286 8.51-6.857-1.701 2.286-3.687 3.143-5.957 2.571-1.294-.325-2.22-1.272-3.245-2.32-1.668-1.705-3.6-3.68-7.819-3.68zM10.214 12c-4.539 0-7.376 2.286-8.51 6.857 1.701-2.286 3.687-3.143 5.957-2.571 1.294.325 2.22 1.272 3.245 2.32 1.668 1.705 3.6 3.68 7.818 3.68 4.54 0 7.377-2.286 8.511-6.857-1.702 2.286-3.688 3.143-5.957 2.571-1.295-.326-2.22-1.272-3.245-2.32-1.669-1.705-3.6-3.68-7.82-3.68z"
