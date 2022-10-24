@@ -3,9 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
 
 :root {
     --default-font-family: 'Baloo 2', cursive;
+    --primary: rgb(14 165 233);
 }
 
 * {

@@ -1,4 +1,4 @@
-import { SET_USER_SESSION, LOGOUT_USER_SESSION } from './constants';
+import { SET_USER_SESSION } from './constants';
 
 const initState = {
     user: {},

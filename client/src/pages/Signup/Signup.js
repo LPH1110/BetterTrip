@@ -3,6 +3,8 @@ import { ErrorMessage, Field, Form, Formik } from 'formik';
 import { useRef } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import * as Yup from 'yup';
+import { Image } from '~/components';
+import images from '~/assets/images';
 
 function Signup() {
     const navigate = useNavigate();
@@ -37,8 +39,10 @@ function Signup() {
 
     return (
         <section className="flex flex-col items-center justify-center h-screen">
-            <NavLink end to="/" className="mb-16 p-4 max-w-lg">
-                <svg className="mx-auto h-10 w-auto text-slate-900" aria-hidden="true" viewBox="0 0 160 24" fill="none">
+            <NavLink end to="/" className="mb-8 p-4 max-w-[20rem]">
+                <Image src={images.logo} alt="logo" />
+
+                {/* <svg className="mx-auto h-10 w-auto text-slate-900" aria-hidden="true" viewBox="0 0 160 24" fill="none">
                     <path
                         d="M18.724 1.714c-4.538 0-7.376 2.286-8.51 6.857 1.702-2.285 3.687-3.143 5.957-2.57 1.296.325 2.22 1.271 3.245 2.318 1.668 1.706 3.6 3.681 7.819 3.681 4.539 0 7.376-2.286 8.51-6.857-1.701 2.286-3.687 3.143-5.957 2.571-1.294-.325-2.22-1.272-3.245-2.32-1.668-1.705-3.6-3.68-7.819-3.68zM10.214 12c-4.539 0-7.376 2.286-8.51 6.857 1.701-2.286 3.687-3.143 5.957-2.571 1.294.325 2.22 1.272 3.245 2.32 1.668 1.705 3.6 3.68 7.818 3.68 4.54 0 7.377-2.286 8.511-6.857-1.702 2.286-3.688 3.143-5.957 2.571-1.295-.326-2.22-1.272-3.245-2.32-1.669-1.705-3.6-3.68-7.82-3.68z"
                         className="fill-sky-400"
@@ -53,7 +57,7 @@ function Signup() {
                         d="M145.532 3.429h8.511c.902 0 1.768.36 2.407 1.004.638.643.997 1.515.997 2.424v8.572c0 .909-.359 1.781-.997 2.424a3.394 3.394 0 01-2.407 1.004h-8.511a3.39 3.39 0 01-2.407-1.004 3.438 3.438 0 01-.997-2.424V6.857c0-.91.358-1.781.997-2.424a3.39 3.39 0 012.407-1.004zm-5.106 3.428c0-1.364.538-2.672 1.495-3.636a5.09 5.09 0 013.611-1.507h8.511c1.354 0 2.653.542 3.61 1.507a5.16 5.16 0 011.496 3.636v8.572a5.16 5.16 0 01-1.496 3.636 5.086 5.086 0 01-3.61 1.506h-8.511a5.09 5.09 0 01-3.611-1.506 5.164 5.164 0 01-1.495-3.636V6.857zm10.907 6.251c0 1.812-1.359 2.916-3.193 2.916-1.823 0-3.182-1.104-3.182-2.916v-5.65h1.633v5.52c0 .815.429 1.427 1.549 1.427 1.12 0 1.549-.612 1.549-1.428v-5.52h1.644v5.652zm1.72 2.748V7.457h1.644v8.4h-1.644z"
                         fill="currentColor"
                     ></path>
-                </svg>
+                </svg> */}
             </NavLink>
             <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
                 <Form ref={authenForm} className="w-full max-w-lg">

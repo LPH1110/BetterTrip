@@ -70,7 +70,7 @@
 }
 
 .outline {
-    border-color: rgba(22, 24, 35, 0.12);
+    border-color: var(--primary);
 
     &:hover {
         background-color: rgba(22, 24, 35, 0.03);

@@ -4,7 +4,6 @@ import { useRef } from 'react';
 
 import { Menu } from '~/components';
 import { SettingIcon, TiktokIcon, UserIcon } from '~/components/Icon';
-import { actions, useStore } from '~/store';
 
 const USER_NAVIGATIONS = [
     {
@@ -37,7 +36,6 @@ const USER_NAVIGATIONS = [
 
 function UserBar() {
     const userBtn = useRef();
-    const [dispatch] = useStore();
 
     return (
         <Menu items={USER_NAVIGATIONS} hideOnClick>
