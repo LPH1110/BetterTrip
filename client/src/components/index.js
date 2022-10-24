@@ -4,3 +4,4 @@ export { default as Popper } from './Popper';
 export { default as Button } from './Button';
 export { default as Menu } from './Menu';
 export { default as SlideWrapper } from './SlideWrapper';
+export { default as Toast } from './Toast';
