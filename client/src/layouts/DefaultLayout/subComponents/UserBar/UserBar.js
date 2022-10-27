@@ -1,4 +1,4 @@
-import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { solid, regular } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useRef } from 'react';
 
@@ -14,9 +14,9 @@ const USER_NAVIGATIONS = [
     },
     {
         id: 1,
-        icon: <TiktokIcon />,
-        title: 'Get coins',
-        to: '/get_coin',
+        icon: <FontAwesomeIcon icon={regular('heart')} />,
+        title: 'Favorites',
+        to: '/my_favorites',
     },
     {
         id: 2,

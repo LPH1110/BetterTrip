@@ -21,7 +21,7 @@ function Menu({ items, children, hideOnClick = false, onChange }) {
     };
 
     const handleHideMenu = () => {
-        document.body.style.overflowY = 'overlay';
+        // document.body.style.overflowY = 'overlay';
         // Go back to the first menu
         setHistory((prev) => prev.slice(0, 1));
     };

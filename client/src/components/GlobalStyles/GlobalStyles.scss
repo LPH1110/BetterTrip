@@ -19,6 +19,9 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     font-family: var(--default-font-family);
 }
 
@@ -26,4 +29,20 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+}
+
+// Scrollbar
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 6px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
 }

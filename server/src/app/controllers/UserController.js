@@ -13,7 +13,7 @@ class UserController {
       const { email, password } = req.body;
       const user = await Users.findOne({ email });
       if (user !== null) {
-        res.json({ error: "Email already existed!" });
+        res.json({ error: "Email is already existed!" });
       } else {
         const hash = await bcrypt.hash(password, 10);
         const obj = {
