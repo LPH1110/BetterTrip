@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BetterTrip/static/css/main.7e5f6a45.css",
-    "main.js": "/BetterTrip/static/js/main.95b76a00.js",
+    "main.js": "/BetterTrip/static/js/main.29ec7a9e.js",
     "static/js/787.c4e7f8f9.chunk.js": "/BetterTrip/static/js/787.c4e7f8f9.chunk.js",
     "static/media/logo2-transparent.png": "/BetterTrip/static/media/logo2-transparent.87fda265eadf296ebe43.png",
     "static/media/logoUI.svg": "/BetterTrip/static/media/logoUI.7d1004bcf3541f89cf5a896ac5d5b93b.svg",
@@ -12,11 +12,11 @@
     "index.html": "/BetterTrip/index.html",
     "static/media/userIcon.svg": "/BetterTrip/static/media/userIcon.fac18beac377db4962f1d7fc8fec31f3.svg",
     "main.7e5f6a45.css.map": "/BetterTrip/static/css/main.7e5f6a45.css.map",
-    "main.95b76a00.js.map": "/BetterTrip/static/js/main.95b76a00.js.map",
+    "main.29ec7a9e.js.map": "/BetterTrip/static/js/main.29ec7a9e.js.map",
     "787.c4e7f8f9.chunk.js.map": "/BetterTrip/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e5f6a45.css",
-    "static/js/main.95b76a00.js"
+    "static/js/main.29ec7a9e.js"
   ]
 }
