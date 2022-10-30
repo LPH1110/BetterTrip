@@ -13,8 +13,9 @@ const cx = classNames.bind(styles);
 
 const navItems = [
     { id: 0, title: 'Home', path: '/' },
-    { id: 1, title: 'About', path: '/about' },
-    { id: 2, title: 'Contact', path: '/contact' },
+    { id: 1, title: 'Flight', path: '/flight' },
+    { id: 2, title: 'Train Ticket', path: '/train-ticket' },
+    { id: 3, title: 'Hotels', path: '/hotels' },
 ];
 
 function DefaultLayout({ children }) {

@@ -1,7 +1,7 @@
 import { solid, regular } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink } from 'react-router-dom';
-import { Image } from '~/components';
+import { BoxContainer, Button, Image } from '~/components';
 
 const slides = [
     {
@@ -70,24 +70,27 @@ const comments = [];
 
 function Home() {
     return (
-        <section className="h-full w-full py-8">
-            <section className="mx-[3.2rem] grid sm:grid-rows-1 grid-flow-col gap-x-7 gap-y-10">
+        <section className="h-full w-full pb-8">
+            <BoxContainer />
+            <section className="m-[3.2rem] grid sm:grid-rows-1 grid-flow-col gap-x-7 gap-y-10">
                 {places.map((place) => (
                     <NavLink
                         key={place.id}
                         to={`/places/${place.slug}`}
                         className="ease-in-out duration-200 drop-shadow-xl hover:shadow-[0_5px_19px_0_rgba(56,189,248,0.7)] max-w-sm bg-white rounded-lg border border-gray-200 dark:bg-gray-800 dark:border-gray-700"
                     >
-                        <div>
-                            <Image className="rounded-t-lg" src={place.thumbnail} alt={place.name} />
+                        <div className="overflow-hidden">
+                            <Image
+                                className="ease-in-out duration-300 hover:scale-110 rounded-t-lg"
+                                src={place.thumbnail}
+                                alt={place.name}
+                            />
                         </div>
                         <section className="flex justify-between p-5">
                             <section>
-                                <a href="#">
-                                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        {place.name}
-                                    </h5>
-                                </a>
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                    {place.name}
+                                </h5>
                                 <p className="mb-3 text-xl font-normal text-gray-600 dark:text-gray-400">
                                     {place.distance}
                                 </p>

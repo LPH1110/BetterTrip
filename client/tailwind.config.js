@@ -8,6 +8,9 @@ module.exports = {
             '1/4': '20%',
             lg: '32rem',
         },
+        top: {
+            '1/5': '20%',
+        },
     },
-    plugins: [],
+    plugins: [require('@headlessui/tailwindcss')({ prefix: 'ui' })],
 };
