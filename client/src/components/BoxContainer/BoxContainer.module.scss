@@ -1,3 +1,11 @@
 .option-item + .option-item {
     margin-top: 0.25rem;
 }
+
+.inner + .inner {
+    margin-left: 1.5rem;
+}
+
+.searchBtn {
+    padding: 0.75rem !important;
+}

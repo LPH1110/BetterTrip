@@ -12,6 +12,7 @@ const app = express();
 dotenv.config();
 
 const port = process.env.PORT || 3000;
+const host = process.env.HOST || "127.0.0.1";
 
 // Connect to db
 db.connect("BetterTripDB");
@@ -31,6 +32,6 @@ app.use(morgan("combined"));
 // Routes
 routes(app);
 
-app.listen(port, () => {
-  console.log(`Server app listening on port ${port}`);
+app.listen(port, host, () => {
+  console.log(`Server app listening on port ${port} and host ${host}`);
 });

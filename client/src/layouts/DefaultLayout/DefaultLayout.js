@@ -52,7 +52,7 @@ function DefaultLayout({ children }) {
         <section className="wrapper">
             <header
                 ref={header}
-                className="bg-white justify-between transition-[border] ease-in-out duration-300 w-full border-b border-slate-200 inset-0 flex items-center h-[6.4rem] fixed z-10"
+                className="bg-white justify-between transition-[border] ease-in-out duration-300 w-full border-b border-slate-200 inset-0 flex items-center h-[6.4rem] fixed z-[10000]"
             >
                 <nav className="flex flex-1 h-full px-[3.2rem] justify-start items-center space-x-4">
                     <NavLink
