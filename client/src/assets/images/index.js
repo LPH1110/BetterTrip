@@ -15,6 +15,8 @@ const images = {
     seatPng: require('./imgs/seat-icon.png'),
     caretDownPng: require('./imgs/caret-down.png'),
     tickPng: require('./imgs/tick-icon.png'),
+    calendarIcon: require('./imgs/calendar.png'),
+    trainPng: require('./imgs/train.png'),
 };
 
 export default images;
