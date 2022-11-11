@@ -17,7 +17,7 @@ function ListBoxWrapper({ data }) {
     return (
         <div>
             <Listbox value={selectedItem} onChange={setSelectedItem}>
-                <Listbox.Button className="h-full flex justify-between items-center relative outline-none py-2 pl-3 pr-1 mx-2 border border-slate-200 rounded-lg">
+                <Listbox.Button className="h-full flex justify-between items-center relative outline-none py-2 pl-3 pr-1 mx-2 hover:bg-slate-100 ease-in-out duration-200 rounded-lg">
                     <p className="text-[1.5rem]">{selectedItem.name || selectedItem}</p>
                     <span className="ml-6">
                         {down && (

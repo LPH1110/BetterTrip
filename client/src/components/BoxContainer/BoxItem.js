@@ -81,7 +81,7 @@ function BoxItem({ values, data }) {
                     </div>
                 )}
             >
-                <div className="p-2 border border-slate-200 rounded-lg">
+                <div className="p-2 border-2 border-slate-100 ease-in-out duration-100 rounded-md focus-within:border-sky-400">
                     <span className="">{data.icon}</span>
                     <Field
                         value={ticketForm[data.name]}

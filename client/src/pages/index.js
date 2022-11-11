@@ -1,6 +1,9 @@
-export { default as Flight } from './Flight';
+export { default as Flight } from './FlightTicket';
 export { default as TrainTicket } from './TrainTicket';
 export { default as Home } from './Home';
 export { default as Login } from './Login';
 export { default as Signup } from './Signup';
 export { default as PlaceDetail } from './PlaceDetail';
+export { default as FlightTicket } from './FlightTicket';
+export { default as Checkout } from './Checkout';
+export { default as Payment } from './Payment';

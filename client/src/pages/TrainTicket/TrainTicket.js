@@ -1,5 +1,5 @@
 function TrainTicket() {
-    return <div>TrainTicket page</div>;
+    return <div>TrainTicket Page</div>;
 }
 
 export default TrainTicket;

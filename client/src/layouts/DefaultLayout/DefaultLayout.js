@@ -5,7 +5,7 @@ import classNames from 'classnames/bind';
 import images from '~/assets/images';
 import { actions, useStore } from '~/store';
 import { AuthenBar, UserBar } from './subComponents';
-import { Image } from '~/components';
+import { Image, BoxContainer } from '~/components';
 import { Footer } from '../components';
 import styles from './DefaultLayout.module.scss';
 
@@ -13,8 +13,8 @@ const cx = classNames.bind(styles);
 
 const navItems = [
     { id: 0, title: 'Home', path: '/' },
-    { id: 1, title: 'Flight', path: '/flight' },
-    { id: 2, title: 'Train Ticket', path: '/train-ticket' },
+    { id: 1, title: 'Flight', path: '/flights' },
+    { id: 2, title: 'Train Ticket', path: '/trains' },
     { id: 3, title: 'Hotels', path: '/hotels' },
 ];
 
@@ -101,7 +101,8 @@ function DefaultLayout({ children }) {
                     {loggedIn ? <UserBar /> : <AuthenBar />}
                 </nav>
             </header>
-            <section className="content w-screen mt-[6.4rem]">{children}</section>
+            <BoxContainer />
+            <section className="content w-screen px-[3.2rem] py-8">{children}</section>
             <Footer />
         </section>
     );

@@ -1,7 +1,5 @@
-import { solid, regular } from '@fortawesome/fontawesome-svg-core/import.macro';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink } from 'react-router-dom';
-import { BoxContainer, Button, Image } from '~/components';
+import { Image } from '~/components';
 
 const slides = [
     {
@@ -71,7 +69,6 @@ const comments = [];
 function Home() {
     return (
         <section className="h-full w-full pb-8">
-            <BoxContainer />
             <section className="m-[3.2rem] grid sm:grid-rows-1 grid-flow-col gap-x-7 gap-y-10">
                 {places.map((place) => (
                     <NavLink

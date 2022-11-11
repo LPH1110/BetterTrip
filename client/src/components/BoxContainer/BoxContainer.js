@@ -11,7 +11,7 @@ const tabs = [
 
 function BoxContainer() {
     return (
-        <section className="bg-slate-700 p-24 flex flex-col items-center relative">
+        <section className="mt-24 bg-slate-700 p-24 flex flex-col items-center relative">
             <Tab.Group>
                 <Tab.List className="p-2 flex absolute top-[15%] rounded-full bg-gray-900/90">
                     {tabs.map((tab) => (

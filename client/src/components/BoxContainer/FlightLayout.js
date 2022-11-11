@@ -1,4 +1,5 @@
 import { Formik, Form, Field } from 'formik';
+import { useNavigate } from 'react-router-dom';
 import ListBoxWrapper from '../ListBoxWrapper';
 import Button from '../Button';
 import HeadlessTippy from '@tippyjs/react/headless';
@@ -98,12 +99,14 @@ const options = [
 ];
 
 function FlightLayout() {
+    const navigate = useNavigate();
     const [state, dispatch] = useStore();
     const { ticketForm } = state;
     const { passengers } = ticketForm;
 
     const handleSubmit = (data) => {
         console.log(data);
+        navigate('/flights');
     };
 
     return (
@@ -158,7 +161,7 @@ function FlightLayout() {
                                 </div>
                             )}
                         >
-                            <Button className="h-full text-md flex items-center outline-none border border-slate-200 rounded-lg">
+                            <Button className="h-full text-md flex items-center outline-none hover:bg-slate-100 ease-in-out duration-200 rounded-lg">
                                 <span>{passengers}</span>
                                 <span className="mx-3 text-[1.5rem]">{option.title}</span>
                                 <span>
@@ -190,7 +193,7 @@ function FlightLayout() {
                         ))}
                         <button
                             type="submit"
-                            className="flex justify-around items-center text-[1.25rem] min-w-[8rem] px-2 py-3 font-semibold bg-sky-500 text-md hover:bg-sky-400 ease-in-out duration-200 rounded-lg text-slate-100 ml-6"
+                            className="flex justify-around items-center text-[1.25rem] min-w-[8rem] px-2 py-[0.9rem] font-semibold bg-sky-500 text-md hover:bg-sky-400 ease-in-out duration-200 rounded-md text-slate-100 ml-6"
                         >
                             <span>
                                 <MagnifyingGlassIcon className="w-8 h-8" />
