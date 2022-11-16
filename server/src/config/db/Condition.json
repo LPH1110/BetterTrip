@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "63711cec863549a94c680711"
+  },
+  "ConditionID": "con01",
+  "HandBaggage": 10,
+  "CheckedBaggage": 10,
+  "ChangeTicketInformation": true,
+  "ChangeName": true,
+  "TicketRefund": true
+},{
+  "_id": {
+    "$oid": "63711dd1863549a94c680712"
+  },
+  "ConditionID": "con02",
+  "HandBaggage": 12,
+  "CheckedBaggage": 8,
+  "ChangeTicketInformation": true,
+  "ChangeName": true,
+  "TicketRefund": false
+},{
+  "_id": {
+    "$oid": "6373c89c805f44c3eac597ae"
+  },
+  "ConditionID": "con03",
+  "HandBaggage": 8,
+  "CheckedBaggage": 8,
+  "ChangeTicketInformation": true,
+  "ChangeName": true,
+  "TicketRefund": false
+}]

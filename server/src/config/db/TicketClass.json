@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "63711c38863549a94c680709"
+  },
+  "TicketClassID": "TC001",
+  "TicketClassName": "Economy"
+},{
+  "_id": {
+    "$oid": "63711c99863549a94c68070a"
+  },
+  "TicketClassID": "TC002",
+  "TicketClassName": "Premium Economy"
+},{
+  "_id": {
+    "$oid": "63711caa863549a94c68070b"
+  },
+  "TicketClassID": "TC003",
+  "TicketClassName": "Business"
+},{
+  "_id": {
+    "$oid": "63711cb9863549a94c68070c"
+  },
+  "TicketClassID": "TC004",
+  "TicketClassName": "First Class"
+}]

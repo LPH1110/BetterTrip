@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "637107d2863549a94c6806af"
+  },
+  "AirplaneID": "VJ001",
+  "AirplaneName": "Airbus A321 VJ001",
+  "AirportID": "SGN",
+  "BrandName": "Vietjet Air"
+},{
+  "_id": {
+    "$oid": "63710871863549a94c6806b0"
+  },
+  "AirplaneID": "VJ002",
+  "AirplaneName": "Airbus A321 VJ002",
+  "AirportID": "DAD",
+  "BrandName": "Vietjet Air"
+},{
+  "_id": {
+    "$oid": "63710914863549a94c6806b1"
+  },
+  "AirplaneID": "VTA001",
+  "AirplaneName": "Airbus A321 VTA001",
+  "AirportID": "SGN",
+  "BrandName": "Vietravel Airlines"
+},{
+  "_id": {
+    "$oid": "6371095e863549a94c6806b2"
+  },
+  "AirplaneID": "BA001",
+  "AirplaneName": "Airbus A319 BA001",
+  "AirportID": "DAD",
+  "BrandName": "Bamboo Airways"
+},{
+  "_id": {
+    "$oid": "63710dc1863549a94c6806b3"
+  },
+  "AirplaneID": "VNA001",
+  "AirplaneName": "Airbus A321 VNA001",
+  "AirportID": "DAD",
+  "BrandName": "Vietnam Airlines"
+},{
+  "_id": {
+    "$oid": "63710e51863549a94c6806b4"
+  },
+  "AirplaneID": "VNA002",
+  "AirplaneName": "Airbus A321 VNA002",
+  "AirportID": "SGN",
+  "BrandName": "Vietnam Airlines"
+}]

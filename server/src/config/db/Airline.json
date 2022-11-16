@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "637113f8863549a94c6806de"
+  },
+  "AirlineID": "AL0001",
+  "ToAirport": "DAD",
+  "FromAirport": "SGN"
+},{
+  "_id": {
+    "$oid": "637114d0863549a94c6806df"
+  },
+  "AirlineID": "AL0002",
+  "ToAirport": "SGN",
+  "FromAirport": "HAN"
+},{
+  "_id": {
+    "$oid": "637114e4863549a94c6806e0"
+  },
+  "AirlineID": "AL0003",
+  "ToAirport": "SGN",
+  "FromAirport": "DLI"
+},{
+  "_id": {
+    "$oid": "637114f5863549a94c6806e1"
+  },
+  "AirlineID": "AL0004",
+  "ToAirport": "DAD",
+  "FromAirport": "VII"
+},{
+  "_id": {
+    "$oid": "63711504863549a94c6806e2"
+  },
+  "AirlineID": "AL0005",
+  "ToAirport": "SGN",
+  "FromAirport": "HUI"
+}]

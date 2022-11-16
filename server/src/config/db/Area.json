@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "63710e83863549a94c6806b7"
+  },
+  "AreaID": "HCMC",
+  "AreaName": "Ho Chi Minh city"
+},{
+  "_id": {
+    "$oid": "6371100e863549a94c6806b8"
+  },
+  "AreaID": "DNC",
+  "AreaName": "Da Nang city"
+},{
+  "_id": {
+    "$oid": "63711022863549a94c6806b9"
+  },
+  "AreaID": "HNC",
+  "AreaName": "Ha Noi Capital"
+},{
+  "_id": {
+    "$oid": "63711057863549a94c6806ba"
+  },
+  "AreaID": "NTC",
+  "AreaName": "Nha Trang city"
+},{
+  "_id": {
+    "$oid": "63711070863549a94c6806bb"
+  },
+  "AreaID": "HC",
+  "AreaName": "Hue city"
+},{
+  "_id": {
+    "$oid": "63711086863549a94c6806bc"
+  },
+  "AreaID": "PQC",
+  "AreaName": "Phu Quoc Island"
+},{
+  "_id": {
+    "$oid": "637110a3863549a94c6806bd"
+  },
+  "AreaID": "DLC",
+  "AreaName": "Da Lat city"
+},{
+  "_id": {
+    "$oid": "637110b8863549a94c6806be"
+  },
+  "AreaID": "HPC",
+  "AreaName": "Hai Phong city"
+},{
+  "_id": {
+    "$oid": "637110c9863549a94c6806bf"
+  },
+  "AreaID": "QNC",
+  "AreaName": "Qui Nhon city"
+},{
+  "_id": {
+    "$oid": "637110e2863549a94c6806c0"
+  },
+  "AreaID": "VC",
+  "AreaName": "Vinh city"
+}]

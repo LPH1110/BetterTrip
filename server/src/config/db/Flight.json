@@ -1,0 +1,177 @@
+[{
+  "_id": {
+    "$oid": "63711555863549a94c6806e9"
+  },
+  "FlightID": "VJ212",
+  "FlyDate": "18-12-2022",
+  "DepartureTime": {
+    "$date": {
+      "$numberLong": "1671322230000"
+    }
+  },
+  "LandingTime": {
+    "$date": {
+      "$numberLong": "1671322470000"
+    }
+  },
+  "NumberEmptySeat": {
+    "Economy": 5,
+    "PremiumEconomy": 10,
+    "Business": 9,
+    "FirstClass": 6
+  }
+},{
+  "_id": {
+    "$oid": "6373cb91805f44c3eac597c9"
+  },
+  "FlightID": "VJ168",
+  "FlyDate": "30-12-2022",
+  "DepartureTime": {
+    "$date": {
+      "$numberLong": "1672359750000"
+    }
+  },
+  "LandingTime": {
+    "$date": {
+      "$numberLong": "1672444830000"
+    }
+  },
+  "NumberEmptySeat": {
+    "Economy": 15,
+    "PremiumEconomy": 12,
+    "Business": 10,
+    "FirstClass": 11
+  }
+},{
+  "_id": {
+    "$oid": "6373ccc5805f44c3eac597ca"
+  },
+  "FlightID": "VJ170",
+  "FlyDate": "29-12-2022",
+  "DepartureTime": {
+    "$date": {
+      "$numberLong": "1672272630000"
+    }
+  },
+  "LandingTime": {
+    "$date": {
+      "$numberLong": "1672272870000"
+    }
+  },
+  "NumberEmptySeat": {
+    "Economy": 13,
+    "PremiumEconomy": 13,
+    "Business": 8,
+    "FirstClass": 7
+  }
+},{
+  "_id": {
+    "$oid": "6373cd27805f44c3eac597cb"
+  },
+  "FlightID": "VU780",
+  "FlyDate": "12-12-2022",
+  "DepartureTime": {
+    "$date": {
+      "$numberLong": "1670803530000"
+    }
+  },
+  "LandingTime": {
+    "$date": {
+      "$numberLong": "1670803770000"
+    }
+  },
+  "NumberEmptySeat": {
+    "Economy": 18,
+    "PremiumEconomy": 17,
+    "Business": 12,
+    "FirstClass": 15
+  }
+},{
+  "_id": {
+    "$oid": "6373cdf8805f44c3eac597cc"
+  },
+  "FlightID": "VH222",
+  "FlyDate": "15-12-2022",
+  "DepartureTime": {
+    "$date": {
+      "$numberLong": "1671063030000"
+    }
+  },
+  "LandingTime": {
+    "$date": {
+      "$numberLong": "1671063270000"
+    }
+  },
+  "NumberEmptySeat": {
+    "Economy": 9,
+    "PremiumEconomy": 11,
+    "Business": 10,
+    "FirstClass": 12
+  }
+},{
+  "_id": {
+    "$oid": "6373ce40805f44c3eac597cd"
+  },
+  "FlightID": "VH293",
+  "FlyDate": "13-12-2022",
+  "DepartureTime": {
+    "$date": {
+      "$numberLong": "1670890290000"
+    }
+  },
+  "LandingTime": {
+    "$date": {
+      "$numberLong": "1670890500000"
+    }
+  },
+  "NumberEmptySeat": {
+    "Economy": 16,
+    "PremiumEconomy": 10,
+    "Business": 9,
+    "FirstClass": 7
+  }
+},{
+  "_id": {
+    "$oid": "6373ce8d805f44c3eac597ce"
+  },
+  "FlightID": "VN224",
+  "FlyDate": "27-11-2022",
+  "DepartureTime": {
+    "$date": {
+      "$numberLong": "1669508250000"
+    }
+  },
+  "LandingTime": {
+    "$date": {
+      "$numberLong": "1669508430000"
+    }
+  },
+  "NumberEmptySeat": {
+    "Economy": 0,
+    "PremiumEconomy": 2,
+    "Business": 5,
+    "FirstClass": 3
+  }
+},{
+  "_id": {
+    "$oid": "6373cf16805f44c3eac597cf"
+  },
+  "FlightID": "VN262",
+  "FlyDate": "18-12-2022",
+  "DepartureTime": {
+    "$date": {
+      "$numberLong": "1671322140000"
+    }
+  },
+  "LandingTime": {
+    "$date": {
+      "$numberLong": "1671322410000"
+    }
+  },
+  "NumberEmptySeat": {
+    "Economy": 1,
+    "PremiumEconomy": 6,
+    "Business": 4,
+    "FirstClass": 12
+  }
+}]

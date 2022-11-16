@@ -1,0 +1,86 @@
+[{
+  "_id": {
+    "$oid": "6371bcd6381e1d7c73a4c75d"
+  },
+  "HotelID": "8230989",
+  "HotelName": "Yolo Wa Hotel",
+  "Address": "144/12 Đ. Lê Văn Thọ, Phường 11, Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+  "AreaID": "HCMC",
+  "Description": "There is no information for this hotel",
+  "AccompaniedService": {
+    "wifi": true,
+    "pool": false,
+    "parking": true,
+    "restaurant": true,
+    "evelator": true,
+    "pickUp": true
+  }
+},{
+  "_id": {
+    "$oid": "6373d0d6805f44c3eac597d6"
+  },
+  "HotelID": "8236373",
+  "HotelName": "PAVILION DA NANG",
+  "Address": "35 Võ Văn Kiệt, Phước Mỹ, Sơn Trà, Đà Nẵng 550000, Vietnam",
+  "AreaID": "DNC",
+  "Description": "Pavilion Hotel is a 4-star luxury hotel located on Vo Van Kiet Street, near My Khe beach – one of the most beautiful beaches in the world voted by Forbes magazine. The hotel with the walking distance of dining, entertainment, market, and beautiful My Khe beach. It is only a 2-minute walk from the sea, 2km from the city center, 4 km from Da Nang airport. The hotel is about 25 minutes by car from the scenic spots as Ba Na Hill, Son Tra Peninsula, Hoi An ancient town. The hotel's interiors are designed in a modern, luxurious and uniform style in accordance with 4 stars international standard with a height of 23 floors with 96 guest accommodation rooms with full facilities surrounded by extensive sea view, city view and Son Tra Peninsular, extensive Conference and Events facilities, Restaurant, Fitness Center , Spa, Sky Bar and Infinity Swimming Pool, Tour information desk and 24-hour business service. Pavilion hotel will bring to you the elegance, courtesy, convenience, and comfort. Each guest room is a cozy, harmonious and friendly private space as your own home.",
+  "AccompaniedService": {
+    "wifi": true,
+    "pool": true,
+    "parking": true,
+    "restaurant": true,
+    "evelator": true,
+    "pickUp": true
+  }
+},{
+  "_id": {
+    "$oid": "6373d242805f44c3eac597d7"
+  },
+  "HotelID": "8236377",
+  "HotelName": "Pullman Hanoi",
+  "Address": "40 Cat Linh Str HANOI VN 10000",
+  "AreaID": "HNC",
+  "Description": "Pullman Hotel is a 5-star luxury hotel located in Vietnam's captial. The hotel with the walking distance of dining, entertainment, market. It is only a 2-minute walk from the sea, 2km from the city center, 4 km from Da Nang airport. The hotel is about 25 minutes by car from the scenic spots as Ba Na Hill, Son Tra Peninsula, Hoi An ancient town. The hotel's interiors are designed in a modern, luxurious and uniform style in accordance with 4 stars international standard with a height of 23 floors with 96 guest accommodation rooms with full facilities surrounded by extensive sea view, city view and Son Tra Peninsular, extensive Conference and Events facilities, Restaurant, Fitness Center , Spa, Sky Bar and Infinity Swimming Pool, Tour information desk and 24-hour business service. Pavilion hotel will bring to you the elegance, courtesy, convenience, and comfort. Each guest room is a cozy, harmonious and friendly private space as your own home.",
+  "AccompaniedService": {
+    "wifi": true,
+    "pool": false,
+    "parking": true,
+    "restaurant": true,
+    "evelator": true,
+    "pickUp": true
+  }
+},{
+  "_id": {
+    "$oid": "6373d32b805f44c3eac597d8"
+  },
+  "HotelID": "8230978",
+  "HotelName": "Mochi Homestay Hanoi",
+  "Address": "64A P. Hàng Bồ, Hàng Bồ, Hoàn Kiếm, Hà Nội 100000, Vietnam",
+  "AreaID": "HNC",
+  "Description": "There is no information for this hotel",
+  "AccompaniedService": {
+    "wifi": true,
+    "pool": false,
+    "parking": true,
+    "restaurant": false,
+    "evelator": false,
+    "pickUp": false
+  }
+},{
+  "_id": {
+    "$oid": "6373d3eb805f44c3eac597d9"
+  },
+  "HotelID": "8126979",
+  "HotelName": "AZERAI LA RESIDENCE HUE",
+  "Address": "5 Le Loi Street Vinh Ninh W Hue 530000 VN",
+  "AreaID": "HC",
+  "Description": "There no information.",
+  "AccompaniedService": {
+    "wifi": true,
+    "pool": true,
+    "parking": true,
+    "restaurant": true,
+    "evelator": true,
+    "pickUp": true
+  }
+}]

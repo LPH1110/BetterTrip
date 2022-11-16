@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6373dccc805f44c3eac597fc"
+  },
+  "RoomID": "8230989R0101",
+  "Price": 100,
+  "Available": true
+},{
+  "_id": {
+    "$oid": "6373dd3f805f44c3eac597fd"
+  },
+  "RoomID": "8230989R0201",
+  "Price": 150,
+  "Available": true
+},{
+  "_id": {
+    "$oid": "6373dd5e805f44c3eac597fe"
+  },
+  "RoomID": "8230989R0301",
+  "Price": 100,
+  "Available": true
+},{
+  "_id": {
+    "$oid": "6373dd6e805f44c3eac597ff"
+  },
+  "RoomID": "8230989R0401",
+  "Price": 69,
+  "Available": false
+},{
+  "_id": {
+    "$oid": "6373dd84805f44c3eac59800"
+  },
+  "RoomID": "8230989R0601",
+  "Price": 250,
+  "Available": true
+}]

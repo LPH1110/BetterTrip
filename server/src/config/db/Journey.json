@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "6373e756805f44c3eac5982c"
+  },
+  "JourneyID": "JN000001",
+  "JourneyName": "My Journey",
+  "Date": {
+    "start": "ad",
+    "end": "das"
+  }
+},{
+  "_id": {
+    "$oid": "6373e822805f44c3eac59831"
+  },
+  "JourneyID": "JN000002",
+  "JourneyName": "Savior Adventure",
+  "Date": {
+    "start": {
+      "$date": {
+        "$numberLong": "1610928630000"
+      }
+    },
+    "end": {
+      "$date": {
+        "$numberLong": "1612138230000"
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6373e876805f44c3eac59832"
+  },
+  "JourneyID": "JN000003",
+  "JourneyName": "Honey Moon",
+  "Date": {
+    "start": {
+      "$date": {
+        "$numberLong": "1665792630000"
+      }
+    },
+    "end": {
+      "$date": {
+        "$numberLong": "1666051830000"
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6373e8aa805f44c3eac59833"
+  },
+  "JourneyID": "JN000004",
+  "JourneyName": "Summer 2022",
+  "Date": {
+    "start": {
+      "$date": {
+        "$numberLong": "1652832630000"
+      }
+    },
+    "end": {
+      "$date": {
+        "$numberLong": "1654387830000"
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6373e8ed805f44c3eac59834"
+  },
+  "JourneyID": "JN000005",
+  "JourneyName": "Traveling with my love",
+  "Date": {
+    "start": {
+      "$date": {
+        "$numberLong": "1666051830000"
+      }
+    },
+    "end": {
+      "$date": {
+        "$numberLong": "1667088630000"
+      }
+    }
+  }
+}]

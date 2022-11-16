@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "6373e2ae805f44c3eac59821"
+  },
+  "CommentID": "vuugiathinh@gmail.com000001",
+  "Content": "God the damn, it's so terriful",
+  "Rating": 1
+},{
+  "_id": {
+    "$oid": "6373e398805f44c3eac59822"
+  },
+  "CommentID": "vuugiathinh@gmail.com000002",
+  "Content": "Its service runs well",
+  "Rating": 4
+},{
+  "_id": {
+    "$oid": "6373e3cb805f44c3eac59823"
+  },
+  "CommentID": "vuugiathinh@gmail.com000003",
+  "Content": "I love this place",
+  "Rating": 5
+}]

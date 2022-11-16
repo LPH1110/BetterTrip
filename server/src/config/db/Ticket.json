@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "6371188f863549a94c6806fa"
+  },
+  "TicketID": "6371188",
+  "TickStatus": "purchased",
+  "TicketPriceID": "TP001",
+  "TicketClass": "TC001"
+},{
+  "_id": {
+    "$oid": "6371194e863549a94c6806fb"
+  },
+  "TicketID": "6371194",
+  "TickStatus": "purchased",
+  "TicketPriceID": "TP002",
+  "TicketClass": "TC002"
+},{
+  "_id": {
+    "$oid": "63711a49863549a94c6806fc"
+  },
+  "TicketID": "6371153",
+  "TicketStatus": "available",
+  "TicketPrice": "TP003",
+  "TicketClass": "TC003"
+},{
+  "_id": {
+    "$oid": "63711b49863549a94c6806fe"
+  },
+  "TicketID": "6371199",
+  "TicketStatus": "available",
+  "TicketPrice": "TP004",
+  "TicketClass": "TC004"
+},{
+  "_id": {
+    "$oid": "63711b63863549a94c6806ff"
+  },
+  "TicketID": "6371152",
+  "TicketStatus": "available",
+  "TicketPrice": "TP005",
+  "TicketClass": "TC004"
+}]

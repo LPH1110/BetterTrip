@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "6371111e863549a94c6806c7"
+  },
+  "AirportID": "SGN",
+  "AirportName": "Tan Son Nhat International Airport"
+},{
+  "_id": {
+    "$oid": "63711250863549a94c6806cc"
+  },
+  "AirportID": "HUI",
+  "AirportName": "Phu Bai International Airport"
+},{
+  "_id": {
+    "$oid": "6371128a863549a94c6806cd"
+  },
+  "AirportID": "CXR",
+  "AirportName": "Cam Ranh Airport"
+},{
+  "_id": {
+    "$oid": "637112b1863549a94c6806ce"
+  },
+  "AirportID": "PQC",
+  "AirportName": "Phu Quoc Airport"
+},{
+  "_id": {
+    "$oid": "637112dc863549a94c6806cf"
+  },
+  "AirportID": "DLI",
+  "AirportName": "Lien Khuong Airport"
+},{
+  "_id": {
+    "$oid": "63711304863549a94c6806d0"
+  },
+  "AirportID": "HAN",
+  "AirportName": "Noi Bai International Airport"
+},{
+  "_id": {
+    "$oid": "63711329863549a94c6806d1"
+  },
+  "AirportID": "HPH",
+  "AirportName": "Cat Bi International Airport"
+},{
+  "_id": {
+    "$oid": "6371134f863549a94c6806d2"
+  },
+  "AirportID": "UIH",
+  "AirportName": "Phu Cat Airport"
+},{
+  "_id": {
+    "$oid": "63711383863549a94c6806d4"
+  },
+  "AirportID": "DAD",
+  "AirportName": "Da Nang International Airport"
+},{
+  "_id": {
+    "$oid": "637113a2863549a94c6806d5"
+  },
+  "AirportID": "VII",
+  "AirportName": "Vinh Airport"
+}]

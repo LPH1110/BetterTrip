@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6373e122805f44c3eac59815"
+  },
+  "DepedentName": "Nguyen Dinh Trai",
+  "DOD": "30-12-1989"
+},{
+  "_id": {
+    "$oid": "6373e167805f44c3eac59816"
+  },
+  "DepedentName": "Nguyen Tran Kim Chi",
+  "DOD": "12-11-1992"
+},{
+  "_id": {
+    "$oid": "6373e18b805f44c3eac59817"
+  },
+  "DepedentName": "Tran Quoc Toan",
+  "DOD": "10-03-1997"
+},{
+  "_id": {
+    "$oid": "6373e1b2805f44c3eac59818"
+  },
+  "DepedentName": "Pham Kien",
+  "DOD": "01-06-1958"
+},{
+  "_id": {
+    "$oid": "6373e1d5805f44c3eac59819"
+  },
+  "DepedentName": "Nguyen Thi Bao Tran",
+  "DOD": "01-01-2020"
+}]

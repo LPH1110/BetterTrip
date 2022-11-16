@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "6373df01805f44c3eac59809"
+  },
+  "RentInvoiceID": "RI000001",
+  "CheckIn": {
+    "CheckInDate": "16-11-2022",
+    "CheckInTime": "sa"
+  },
+  "CheckOut": {
+    "CheckInDate": "18-11-2022",
+    "CheckInTime": "sa"
+  }
+},{
+  "_id": {
+    "$oid": "6373e010805f44c3eac59810"
+  },
+  "RentInvoiceID": "RI000002",
+  "CheckIn": {
+    "CheckInDate": "23-11-2022",
+    "CheckInTime": {
+      "$date": {
+        "$numberLong": "1669162230000"
+      }
+    }
+  },
+  "CheckOut": {
+    "CheckInDate": "24-11-2022",
+    "CheckInTime": {
+      "$date": {
+        "$numberLong": "1669248630000"
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6373e0a3805f44c3eac59812"
+  },
+  "RentInvoiceID": "RI000003",
+  "CheckIn": {
+    "CheckInDate": "20-11-2022",
+    "CheckInTime": {
+      "$date": {
+        "$numberLong": "1668903150000"
+      }
+    }
+  },
+  "CheckOut": {
+    "CheckInDate": "12-12-2022",
+    "CheckInTime": {
+      "$date": {
+        "$numberLong": "1670803950000"
+      }
+    }
+  }
+}]

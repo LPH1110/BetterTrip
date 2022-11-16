@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "6373ddb2805f44c3eac59803"
+  },
+  "TypeID": "STD-SGL",
+  "TypeName": "Standart Single",
+  "Accommodate": "1 person / 1 bed"
+},{
+  "_id": {
+    "$oid": "6373de72805f44c3eac59804"
+  },
+  "TypeID": "STD-TWN",
+  "TypeName": "Standart Twin",
+  "Accommodate": "2 person / 2 bed"
+},{
+  "_id": {
+    "$oid": "6373de8a805f44c3eac59805"
+  },
+  "TypeID": "STD-DBL",
+  "TypeName": "Standart Double",
+  "Accommodate": "2 person / 1 bed"
+},{
+  "_id": {
+    "$oid": "6373dea3805f44c3eac59806"
+  },
+  "TypeID": "STD-TRPL",
+  "TypeName": "Standart Triple",
+  "Accommodate": "3 person / 3 bed"
+},{
+  "_id": {
+    "$oid": "63745171a822d64ce20033a6"
+  },
+  "TypeID": "SUP-SGL",
+  "TypeName": "Superior Single",
+  "Accommodate": "1 person / 1 bed"
+},{
+  "_id": {
+    "$oid": "6374518ba822d64ce20033a7"
+  },
+  "TypeID": "SUP-TWN",
+  "TypeName": "Superior Twin",
+  "Accommodate": "2 person / 2 bed"
+},{
+  "_id": {
+    "$oid": "6374519da822d64ce20033a8"
+  },
+  "TypeID": "SUP-DBL",
+  "TypeName": "Superior Double",
+  "Accommodate": "2 person / 1 bed"
+},{
+  "_id": {
+    "$oid": "637451b2a822d64ce20033a9"
+  },
+  "TypeID": "SUP-TRPL",
+  "TypeName": "Superior Triple",
+  "Accommodate": "3 person / 3 bed"
+},{
+  "_id": {
+    "$oid": "637451e8a822d64ce20033ab"
+  },
+  "TypeID": "DLX-SGL",
+  "TypeName": "Deluxe Single",
+  "Accommodate": "1 person / 1 bed"
+},{
+  "_id": {
+    "$oid": "637451fea822d64ce20033ac"
+  },
+  "TypeID": "DLX-TWN",
+  "TypeName": "Deluxe Twin",
+  "Accommodate": "2 person / 2 bed"
+},{
+  "_id": {
+    "$oid": "63745212a822d64ce20033ad"
+  },
+  "TypeID": "DLX-DBL",
+  "TypeName": "Deluxe Double",
+  "Accommodate": "2 person / 1 bed"
+},{
+  "_id": {
+    "$oid": "63745234a822d64ce20033ae"
+  },
+  "TypeID": "DLX-TRPL",
+  "TypeName": "Deluxe Triple",
+  "Accommodate": "3 person / 3 bed"
+},{
+  "_id": {
+    "$oid": "6374524fa822d64ce20033af"
+  },
+  "TypeID": "SUI-SGL",
+  "TypeName": "Suite Single",
+  "Accommodate": "1 person / 1 bed"
+},{
+  "_id": {
+    "$oid": "63745267a822d64ce20033b0"
+  },
+  "TypeID": "SUI-TWN",
+  "TypeName": "Suite Twin",
+  "Accommodate": "2 person / 2 bed"
+},{
+  "_id": {
+    "$oid": "63745278a822d64ce20033b1"
+  },
+  "TypeID": "SUI-DBL",
+  "TypeName": "Suite Double",
+  "Accommodate": "2 person / 1 bed"
+},{
+  "_id": {
+    "$oid": "63745289a822d64ce20033b2"
+  },
+  "TypeID": "SUI-TRPL",
+  "TypeName": "Suite Triple",
+  "Accommodate": "3 person / 3 bed"
+}]

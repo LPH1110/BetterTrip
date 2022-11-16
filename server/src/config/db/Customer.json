@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "63711e01863549a94c680715"
+  },
+  "CustomerName": "Vuu Gia Thinh",
+  "SSN": "18050402",
+  "Email": "vuugiathinh@gmail.com",
+  "DOB": "20-02-2000",
+  "Address": "District 7, Ho Chi Minh city"
+},{
+  "_id": {
+    "$oid": "63711e5e863549a94c680716"
+  },
+  "CustomerName": "Le Phu Hao",
+  "SSN": "20050402",
+  "Email": "lephuhao@gmail.com",
+  "DOB": "23-09-2002",
+  "Address": "District 7, Ho Chi Minh city"
+},{
+  "_id": {
+    "$oid": "63711e8b863549a94c680717"
+  },
+  "CustomerName": "Lenh Gia Han",
+  "SSN": "22050402",
+  "Email": "lenhgiahan@gmail.com",
+  "DOB": "22-11-2002",
+  "Address": "District 7, Ho Chi Minh city"
+},{
+  "_id": {
+    "$oid": "63719501381e1d7c73a4c6c7"
+  },
+  "CustomerName": "Magnus Carsen",
+  "SSN": "88040402",
+  "Email": "magnuscarsen@gmail.com",
+  "DOB": "30-11-1990",
+  "Address": "District 1, Ho Chi Minh city"
+},{
+  "_id": {
+    "$oid": "63719594381e1d7c73a4c6c8"
+  },
+  "CustomerName": "Nguyen Thi Thap",
+  "SSN": "41840402",
+  "Email": "nguyenthithap@gmail.com",
+  "DOB": "01-02-1998",
+  "Address": "District 7, Ho Chi Minh city"
+}]

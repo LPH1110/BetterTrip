@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6373e44c805f44c3eac59826"
+  },
+  "PlaceID": "place000001",
+  "PlaceName": "Ba Na Hill",
+  "Address": "An Son, Hoa Ninh, Hoa Vang, Da Nang",
+  "Discription": "Đến với Sun World Ba Na Hills, du khách sẽ được trải nghiệm khí hậu bốn mùa trong một ngày, chu du trên những tuyến cáp treo, đắm chìm trong cảnh quan thiên nhiên của những cánh rừng nguyên sinh nối tiếp ở Bà Nà Núi Chúa, thưởng thức ẩm thực đa dạng và tận hưởng không khí lễ hội ngập tràn."
+},{
+  "_id": {
+    "$oid": "6373e59b805f44c3eac59827"
+  },
+  "PlaceID": "place000002",
+  "PlaceName": "Hue Accient Capital",
+  "Address": "Thua Thien Hue",
+  "Discription": "The Hue citadel lies on the left bank of the Perfume River within a perimeter of nearly 10km and a land area of over 500 hectares. The whole citadel was divided into three sectors: Phong Thanh (Defense) citadel, Hoang Thanh (Royal) citadel and Tu Cam Thanh (Forbidden) citadel. "
+},{
+  "_id": {
+    "$oid": "6373e6f8805f44c3eac59829"
+  },
+  "PlaceID": "place000003",
+  "PlaceName": "Nha Trang Beach",
+  "Address": "Nha Trang",
+  "Discription": "Mother Nature favors Nha Trang with many things to captivate travelers. Among them, the enchanting beauty of the beaches has made a name for this city. Every Nha Trang beach receives millions of domestic and foreign visitors each year."
+}]
